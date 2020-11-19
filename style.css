@@ -1,40 +1,37 @@
 
 body {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #EFEEE7
-}
-h1 {
-    background: #333;
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #EFEEE7;
-    text-align: center;
-}
-h2 {
     font-size: 24px;
+    color: rgb(189, 20, 20);
+    background-color:rgba(34, 34, 255, 0.582);
 }
-.container {
-    width: 1040px;
+h1{
+    text-align: center;
+    border: 4px solid;
+    background-color: #ffffff
 }
-.container,
-.contact {
-    margin: 20px;
-    float: left;
-}
-#photo {
-    width: 200px;
-    height: 200px;
-}
-#bio {
-    width: 820px;
-    float: right;
-}
-a {
-    color: #D21034;
-}
+    p{
+        color: #ffffff;
+        float: left;
+        font-style: helvetica;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    img {
+        float: left;
+        border: 4px solid;
+    }
+
+    #first-paragraph{
+        width: 55%;
+        float: right;
+        margin: inherit;
+    }
+
+    .eagle-facts {
+        position: absolute;
+        top: 510px;
+        left: 20px;
+        float: left;
+        margin-bottom: 40px;
+    }
